@@ -1,11 +1,8 @@
 import Link from "next/link"
-import Navbar from "./Components/Navbar"
-const index = () => {
+const Navbar = () => {
   return (
     <>
-    <div>
-    <Navbar/>
-    {/*<nav>
+       <nav>
       <ul>
       <li>
         <Link href="/">
@@ -23,12 +20,9 @@ const index = () => {
         </Link>
       </li>
       </ul>
-    </nav>*/}
-    </div>
-    <h1>Hello World</h1>
-    
+    </nav>
     </>
-  )
+    )
 }
 
-export default index
+export default Navbar
